@@ -1,0 +1,65 @@
+:root {
+    --main-color: rgb(177, 247, 171);
+    --secondary-color: rgb(239, 161, 78);
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+      "t t"
+      "e p"
+      "e p";
+  }
+  
+  #title {
+    grid-area: t;
+    text-align: center;
+  }
+  
+  #preview {
+    grid-area: p;
+    height: 98%;
+    float: right;
+    border: 2px solid;
+    background: var(--main-color);
+  }
+  
+  #preview-title {
+    height: 26px;
+    border-bottom: 2px solid;
+    text-align: center;
+    background: var(--secondary-color);
+    font-weight: 700;
+  }
+  
+  #preview-text {
+    padding-left: 15px;
+    overflow: auto;
+  }
+  
+  #editor {
+    grid-area: e;
+    border: 2px solid;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    background: var(--main-color);
+  }
+  
+  #editor-title {
+    border-bottom: 2px solid;
+    text-align: center;
+    background: var(--secondary-color);
+    font-weight: 700;
+  }
+  
+  #editor-text {
+    background: var(--main-color);
+    height: 100%;
+    margin-top: -8px;
+    padding: 15px;
+    overflow: auto;
+    border: none;
+  }
