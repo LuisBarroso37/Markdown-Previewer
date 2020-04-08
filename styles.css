@@ -63,3 +63,27 @@
     overflow: auto;
     border: none;
   }
+
+  table {
+    border-collapse: collapse;
+  }
+
+td, th {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+blockquote {
+    border-left: 3px solid #224B4B;
+    color: #224B4B;
+    padding-left: 5px;
+    margin-left: 25px;
+  }
+
+code {
+    background: white;
+    padding: 1px 4px 2px 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }

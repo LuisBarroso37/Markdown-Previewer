@@ -11,5 +11,5 @@ Things I learnt:
 
 This page is built using React.
 
-![screencapture-codepen-io-luisbarroso-full-wvaJqxx-2020-03-19-17_05_07](https://user-images.githubusercontent.com/58770446/77088552-e6a1d380-6a04-11ea-8ec6-5f3efd1d4bbd.png)
+![screencapture-codepen-io-luisbarroso-full-wvaJqxx-2020-04-08-21_11_39](https://user-images.githubusercontent.com/58770446/78823891-c9e23580-79dd-11ea-90f3-0ed84b38e17f.png)
 

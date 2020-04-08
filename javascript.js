@@ -63,7 +63,7 @@ renderer.link = function (href, title, text) {
   };
   
   const placeholder = `# This is a heading!
-  
+
   ## This is a sub-heading...
   ### And here's some other cool stuff:
     
@@ -84,7 +84,15 @@ renderer.link = function (href, title, text) {
   Or... wait for it... **_both!_**
   And feel free to go crazy ~~crossing stuff out~~.
   
-  There's also [links](https://www.freecodecamp.com).
+  There's also [links](https://www.freecodecamp.com), and
+  > Block Quotes!
+  
+  And if you want to get really crazy, even tables:
+  
+  Wild Header | Crazy Header | Another Header?
+  ------------ | ------------- | ------------- 
+  Your content can | be here, and it | can be here....
+  And here. | Okay. | I think we get it.
   
   - And of course there are lists.
     - Some are bulleted.
